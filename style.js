@@ -40,6 +40,12 @@ button.addEventListener('click', function () {
     if (userInput > 100) {
         userInput=100
     }
+    if (!userInput) {
+        userInput=30
+    }
+    if (typeof userInput !== 'number') {
+        userInput=30
+    }
     drawBoard(userInput)
     
 })
