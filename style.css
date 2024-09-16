@@ -1,0 +1,32 @@
+#board {
+/* 
+    width:480px;
+    height:480px; */
+    /* display: grid; */
+    border-width: 1px;
+   background-color: thistle;
+
+    
+
+}
+.cell {
+    width: 16px;
+    height: 16px;
+ 
+    /* transition: background-color 0.01s ease; Smooth transition */
+
+  
+}
+/* .cell:hover{
+    background-color:black;
+} */
+    
+.row {
+    
+    /* width: 480px; */
+    height: 16px;
+   
+    display: flex;
+    flex-direction: row;
+
+}
